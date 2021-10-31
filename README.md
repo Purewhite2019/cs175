@@ -22,13 +22,13 @@ Example figures are shown as follows.
 
 <center><b>ex-1</b></center>
 
-![ex-1](/example-pic/ex-1.png)
+![ex-1](example-pic/ex-1.png)
 
 <center><b>ex-2</b></center>
 
-![ex-2](/example-pic/ex-2.png)
+![ex-2](example-pic/ex-2.png)
 
 <center><b>ex-3</b></center>
 
-![ex-3](/example-pic/ex-3.png)
+![ex-3](example-pic/ex-3.png)
 
