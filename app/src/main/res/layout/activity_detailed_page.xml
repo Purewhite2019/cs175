@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailedPage">
+    <RelativeLayout
+        android:id="@+id/page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cat_image"
+            android:layout_width="256dp"
+            android:layout_height="192dp"
+            android:src="@drawable/cat_search" />
+        <TextView
+            android:id="@+id/cat_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/cat_image"
+            android:text="Cat Number"
+            android:textStyle="bold"
+            android:textSize="24dp"
+            android:background="#10000000"
+            />
+      <TextView
+          android:id="@+id/cat_name"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/cat_image"
+          android:layout_below="@+id/cat_number"
+          android:text="Cat Name"
+          android:textStyle="bold"
+          android:textSize="24dp"
+          android:background="#10000000"
+          />
+      <TextView
+          android:id="@id/cat_gender"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/cat_image"
+          android:layout_below="@+id/cat_name"
+          android:text="Cat Gender"
+          android:textStyle="bold"
+          android:textSize="24dp"
+          android:background="#10000000"
+          />
+      <TextView
+          android:id="@+id/cat_age"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/cat_image"
+          android:layout_below="@+id/cat_gender"
+          android:text="Cat Age"
+          android:textStyle="bold"
+          android:textSize="24dp"
+          android:background="#10000000"
+          />
+      <TextView
+          android:id="@+id/cat_color"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/cat_image"
+          android:layout_below="@+id/cat_age"
+          android:text="Cat Color"
+          android:textStyle="bold"
+          android:textSize="24dp"
+          android:background="#10000000"
+          />
+      <TextView
+          android:id="@+id/cat_description"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/cat_image"
+          android:text="Cat Description"
+          android:textSize="18dp"
+          android:background="#10000000"
+          />
+    </RelativeLayout>
+
+  </ScrollView>

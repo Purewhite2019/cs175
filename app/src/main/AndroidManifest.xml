@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.bytedance.compicatedcomponent">
+    package="com.purewhite.nekocome" >
 
     <application
         android:allowBackup="true"
@@ -8,25 +8,18 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.CompicatedComponent">
+        android:theme="@style/Theme.NekoCome" >
         <activity
-            android:name=".handler.HomepageActivity"
-            android:label="@string/title_activity_homepage"
-            android:theme="@style/Theme.CompicatedComponent.NoActionBar">
-        </activity>
-        <activity android:name=".handler.SplashActivity">
-        </activity>
-        <activity android:name=".homework.ClockActivity">
+            android:name=".DetailedPage"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".handler.DownloadVideoActivity"></activity>
-        <activity android:name=".handler.HandlerActivity" />
-        <activity android:name=".thread.ThreadActivity" />
-        <activity android:name=".view.CustomViewActivity">
         </activity>
     </application>
 

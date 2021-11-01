@@ -1,31 +1,20 @@
-# CS175 Assignment 3
+# CS175 Assignment 1 *NekoCome*
 
 <center>519021910529, Qi Liu, purewhite@sjtu.edu.cn</center>
 
-This is an assignment of Chapter 4 in CS175, *Practice on Android Application Development*, Autumn 2021.
+This is the assignment of Chapter 2 in CS175, *Practice on Android Application Development*, Autumn 2021.
 
-A clock app is implemented with all tasks finished, including:
+A cat adoption application demo, with the following features:
 
-- **Basic**:
+- [x] Display the abstract information of each lovely cat in a scrolling manner.
+- [x] Search bar is applied to facilitate users to find their ideal pet more conveniently.
+- [x] Detailed information of each cat is able to access by clicking its abstraction, and clicking the `back` button can bring a user back to the search window.
 
-  - [x] Draw a clock interface, including dial, hour hand, minute hand and second hand 
-  - [x] Hour hand, minute hand and second hand change over time
+This whole project is implemented in *Kotlin* in nearly 5 hours, mainly wrestling with grammars of *Kotlin* and tricks of *RecyclerView*.
 
-- **Additional**:
+If time permits, some extra ideas may be realize:
 
-  - [x] Number indices on the dial
+- [ ] Add the thumbnail of each cat in its abstract item. 
 
-  - [x] An extra digital clock synchronized with the mechanical clock
-
-  - [x] A mode which allows manual adjustment for the time, implemented by *Touch* event
-
-    The areas from outer to inner are used for adjusting the second, the minute, the hour and changing back to system time, respectively.
-
-- **Experiment**:
-
-  - [x] The app will not crash when the second reaches 60, the minute reaches 60 or the hour reaches 12, as the example gif shows.
-
-#### Example
-
-![ex-1](example-pic/show.gif)
-
+- [ ] Use *Jetpack Compose* to reimplement this project.
+- [ ] Or more crazily, fully develop this application to turn it from a toy into a utility software and release it to Google Play!
