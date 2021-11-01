@@ -3,10 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Studio/workspace/CS175/Homeworks/Homework 3/app/src/main/res/layout/activity_ch3ex1.xml" value="0.1" />
-        <entry key="..\:/Studio/workspace/CS175/Homeworks/Homework 3/app/src/main/res/layout/activity_ch3ex2.xml" value="0.2957427536231884" />
-        <entry key="..\:/Studio/workspace/CS175/Homeworks/Homework 3/app/src/main/res/layout/activity_ch3ex3.xml" value="0.2957427536231884" />
-        <entry key="..\:/Studio/workspace/CS175/Homeworks/Homework 3/app/src/main/res/layout/fragment_placeholder.xml" value="0.19010416666666666" />
+        <entry key="..\:/Studio/workspace/CS175/Homeworks/Homework 4/app/src/main/res/layout/activity_clock.xml" value="0.2957427536231884" />
       </map>
     </option>
   </component>

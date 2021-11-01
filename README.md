@@ -1,34 +1,31 @@
-# CS175 Assignment 2
+# CS175 Assignment 3
 
 <center>519021910529, Qi Liu, purewhite@sjtu.edu.cn</center>
 
-This is an assignment of Chapter 3 in CS175, *Practice on Android Application Development*, Autumn 2021.
+This is an assignment of Chapter 4 in CS175, *Practice on Android Application Development*, Autumn 2021.
 
-All tasks have been finished, including:
+A clock app is implemented with all tasks finished, including:
 
-- **ex-1**: Used *lottie* to play animations;
-- **ex-2**:
-  - Implemented an *ObjectAnimator* to scale a *View*; 
-  - Implemented an *ObjectAnimator* to change the opacity of a *View*; 
-  - Used *AnimatorSet* to wrap all *ObjectAnimator*s;
-  - Made the *RainbowTextView* visible;
-- **ex-3**: 
-  - Implemented a slide-switch interface with *ViewPager* and *Fragment*;
-  - Implemented a tab with *TabLayout*;
-  - Added a loading animation and *ListView* into `fragment_placeholder`;
-  - Implemented fading-in and fading-out animations to smoothly switch between the loading animation and  the *ListView*;
+- **Basic**:
 
-Example figures are shown as follows.
+  - [x] Draw a clock interface, including dial, hour hand, minute hand and second hand 
+  - [x] Hour hand, minute hand and second hand change over time
 
-<center><b>ex-1</b></center>
+- **Additional**:
 
-![ex-1](example-pic/ex-1.png)
+  - [x] Number indices on the dial
 
-<center><b>ex-2</b></center>
+  - [x] An extra digital clock synchronized with the mechanical clock
 
-![ex-2](example-pic/ex-2.png)
+  - [x] A mode which allows manual adjustment for the time, implemented by *Touch* event
 
-<center><b>ex-3</b></center>
+    The areas from outer to inner are used for adjusting the second, the minute, the hour and changing back to system time, respectively.
 
-![ex-3](example-pic/ex-3.png)
+- **Experiment: **
+
+  - [x] The app will not crash when the second reaches 60, the minute reaches 60 or the hour reaches 12, as the example gif shows.
+
+#### Example
+
+![ex-1](example-pic/show.gif)
 
