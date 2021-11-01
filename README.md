@@ -21,7 +21,7 @@ A clock app is implemented with all tasks finished, including:
 
     The areas from outer to inner are used for adjusting the second, the minute, the hour and changing back to system time, respectively.
 
-- **Experiment: **
+- **Experiment**:
 
   - [x] The app will not crash when the second reaches 60, the minute reaches 60 or the hour reaches 12, as the example gif shows.
 
