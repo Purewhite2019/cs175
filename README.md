@@ -29,4 +29,11 @@ Assignments of *Practice on Android Application Development*, Autumn 2021:
     - [x] Number indices on the dial
     - [x] An extra digital clock synchronized with the mechanical clock
     - [x] A mode which allows manual adjustment for the time, implemented by *Touch* event
+- [Assignment 4](https://github.com/Purewhite2019/cs175/tree/homework4): A simple translator is implemented with all tasks finished, including:
+  - [x] Translate words and sentences from English to Chinese, with Network Translation.
+  - [x] Show Wikipedia Digestion of a certain word or sentence.
+  - [x] Cache results to alleviate network burden.
+  - [x] Show traffic stats to analyze network usage.
+  - [x] Capture DNS, TCP and TLS packets with Wireshark.
+
 
