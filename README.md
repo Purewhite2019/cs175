@@ -36,8 +36,8 @@ Assignments of *Practice on Android Application Development*, Autumn 2021:
   - [x] Show traffic stats to analyze network usage.
   - [x] Capture DNS, TCP and TLS packets with Wireshark.
 - [Assignment 5](https://github.com/Purewhite2019/cs175/tree/homework5): A simple todo-list app is implemented with all tasks finished, including:
-  1. Store todo entries in a database built with *Room API*, with the ability to query, insert, update and delete entries.
-  2. Show all todo entries in a sorted manner (Based on the priority and the creation time) in the main activity.
-  3. Add new todo entries by clicking $\oplus$ button.
-  4. Set a certain todo entry to be done or undone by clicking the checkboxes, updating the database and the UI meanwhile.
-  5. Delete a certain todo entry by clicking $\times$ button, updating the database and the UI meanwhile.
+  - [x] Store todo entries in a database built with *Room API*, with the ability to query, insert, update and delete entries.
+  - [x] Show all todo entries in a sorted manner (Based on the priority and the creation time) in the main activity.
+  - [x] Add new todo entries by clicking $\oplus$ button.
+  - [x] Set a certain todo entry to be done or undone by clicking the checkboxes, updating the database and the UI meanwhile.
+  - [x] Delete a certain todo entry by clicking $\times$ button, updating the database and the UI meanwhile.
