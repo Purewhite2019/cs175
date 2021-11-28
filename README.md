@@ -4,8 +4,6 @@
 
 This is an assignment of Chapter 6 in CS175, *Practice on Android Application Development*, Autumn 2021.
 
-![image-20211127200753121](C:\Users\86191\AppData\Roaming\Typora\typora-user-images\image-20211127200753121.png)
-
 A simple todo-list app is implemented with all tasks finished, including:
 
 1. Store todo entries in a database built with *Room API*, with the ability to query, insert, update and delete entries.
