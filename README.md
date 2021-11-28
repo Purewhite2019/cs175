@@ -1,31 +1,23 @@
-# CS175 Assignment 4
+# CS175 Assignment 5
 
 <center>519021910529, Qi Liu, purewhite@sjtu.edu.cn</center>
 
-This is an assignment of Chapter 5 in CS175, *Practice on Android Application Development*, Autumn 2021.
+This is an assignment of Chapter 6 in CS175, *Practice on Android Application Development*, Autumn 2021.
 
-A simple translator is implemented with all tasks finished, including:
+![image-20211127200753121](C:\Users\86191\AppData\Roaming\Typora\typora-user-images\image-20211127200753121.png)
 
-1. Translate words and sentences from English to Chinese, with Network Translation.
-2. Show Wikipedia Digestion of a certain word or sentence.
-3. Cache results to alleviate network burden.
-4. Show traffic stats to analyze network usage.
-5. Capture DNS, TCP and TLS packets with Wireshark.
+A simple todo-list app is implemented with all tasks finished, including:
 
-**Fig. 1** *Example of Network Translation*
+1. Store todo entries in a database built with *Room API*, with the ability to query, insert, update and delete entries.
+1. Show all todo entries in a sorted manner (Based on the priority and the creation time) in the main activity.
+1. Add new todo entries by clicking $\oplus$ button.
+1. Set a certain todo entry to be done or undone by clicking the checkboxes, updating the database and the UI meanwhile.
+1. Delete a certain todo entry by clicking $\times$ button, updating the database and the UI meanwhile.
 
-![1](figs/1.png)
+**Fig. 1** *The `MainActivity`*
 
-**Fig. 2** *Example of Wikipedia Digestion*
+![](figs/1.png)
 
-![2](figs/2.png)
+**Fig. 2** *The `AddTodoActivity`*
 
-**Fig. 3** *Example of cache and traffic stats*
-
-![3](figs/3.png)
-
-**Fig. 4, 5** *DNS, TCP and TLS* packets on this connection
-
-![4](figs/4.png)
-
-![5](figs/5.png)
+![](figs/2.png)
