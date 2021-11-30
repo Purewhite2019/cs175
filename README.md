@@ -4,17 +4,15 @@
 
 This is an assignment of Chapter 8 in CS175, *Practice on Android Application Development*, Autumn 2021.
 
-![image-20211128160623626](C:\Users\86191\AppData\Roaming\Typora\typora-user-images\image-20211128160623626.png)
-
 A simple camera app is implemented with all tasks finished, including:
 
-	1. Camera functions well-implemented with *Camera 2* API.
-	1. A beautified `Edittext` for specifying the output file name. (By default, the output file name is current time)
-	1. A `TextureView` to preview the camera result.
- 	4. A `TextView` to show information about last shoot.
-	1. An `ImageButton` to switch between the front camera and the back camera.
-	1. An `ImageButton`, clicking which will take a photo and long clicking will record a video (video recording ends upon the click ends).
-	1. An `ImageView` storing the thumbnail of last shot.
+1. Camera functions well-implemented with *Camera 2* API.
+2. A beautified `Edittext` for specifying the output file name. (By default, the output file name is current time)
+3. A `TextureView` to preview the camera result.
+4. A `TextView` to show information about last shoot.
+5. An `ImageButton` to switch between the front camera and the back camera.
+6. An `ImageButton`, clicking which will take a photo and long clicking will record a video (video recording ends upon the click ends).
+7. An `ImageView` storing the thumbnail of last shot.
 
 **Fig. 1** *Photo Shot with Front Camera*
 
