@@ -41,3 +41,11 @@ Assignments of *Practice on Android Application Development*, Autumn 2021:
   - [x] Add new todo entries by clicking $\oplus$ button.
   - [x] Set a certain todo entry to be done or undone by clicking the checkboxes, updating the database and the UI meanwhile.
   - [x] Delete a certain todo entry by clicking $\times$ button, updating the database and the UI meanwhile.
+- [Assignment 7](https://github.com/Purewhite2019/cs175/tree/homework7): A simple camera app is implemented with all tasks finished, including:
+  - [x] Camera functions well-implemented with *Camera 2* API.
+  - [x] A beautified `Edittext` for specifying the output file name. (By default, the output file name is current time)
+  - [x] A `TextureView` to preview the camera result.
+  - [x] A `TextView` to show information about last shoot.
+  - [x] An `ImageButton` to switch between the front camera and the back camera.
+  - [x] An `ImageButton`, clicking which will take a photo and long clicking will record a video (video recording ends upon the click ends).
+  - [x] An `ImageView` storing the thumbnail of last shot.
