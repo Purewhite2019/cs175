@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NekoGallery</string>
+    <string name="title_picture">Picture</string>
+    <string name="title_video">Video</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+</resources>
